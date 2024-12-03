@@ -1,5 +1,3 @@
-const { runInContext } = require("vm");
-
 const fs = require("fs").promises;
 
 fs.readFile("./input.txt", "utf8")
